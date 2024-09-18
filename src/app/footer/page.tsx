@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <footer className="bg-[#36413E] text-[#FCFDAF] py-8">
+      <footer className=" bg-slate-900 text-[#FCFDAF] py-8">
         <div className="container mx-auto text-center">
           <p className="text-lg mb-4">© {new Date().getFullYear()} El Rincón del Grano. Todos los derechos reservados.</p>
           <p className="text-sm">

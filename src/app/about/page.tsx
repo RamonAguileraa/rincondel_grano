@@ -22,7 +22,7 @@ export default function About() {
             En El Rincón del Grano, te ofrecemos una experiencia única con nuestro café de alta calidad y una selección de platos que complementan perfectamente nuestro menú. Nuestro ambiente acogedor y nuestro servicio amigable te harán sentir como en casa.
           </p>
         </div>
-        <div className="md:w-1/2 px-4 animate__animated animate__fadeIn animate__delay-3s">
+        <div className="md:w-1/2 ml-80 animate__animated animate__fadeIn animate__delay-3s">
           <Image
             src="/restaurante.jpg"
             alt="Nuestro Café"
