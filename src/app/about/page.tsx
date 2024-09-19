@@ -34,7 +34,6 @@ Siempre estamos evolucionando, buscando nuevas formas de mejorar la experiencia 
             alt="Nuestro Café"
             width={800}
             height={600}
-            objectFit="cover"
             className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
           />
         </div>
