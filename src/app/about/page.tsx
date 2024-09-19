@@ -19,15 +19,23 @@ export default function About() {
         <div className="md:w-1/2 px-4">
           <h2 className="text-4xl font-bold mb-6 text-[#36413E] animate__animated animate__fadeIn animate__delay-1s">Sobre Nosotros</h2>
           <p className="text-xl mb-6 text-[#36413E] animate__animated animate__fadeIn animate__delay-2s">
-            En El Rincón del Grano, te ofrecemos una experiencia única con nuestro café de alta calidad y una selección de platos que complementan perfectamente nuestro menú. Nuestro ambiente acogedor y nuestro servicio amigable te harán sentir como en casa.
-          </p>
+          El Rincón del Grano es un lugar acogedor donde puedes disfrutar de momentos especiales en compañía de tus seres queridos, ya sea con tu pareja, amigos, familiares o incluso solo. Nos dedicamos a crear experiencias únicas con nuestras bebidas y platillos, cuidadosamente seleccionados para satisfacer todos los gustos. Más que un café, somos un espacio cultural donde siempre hay algo nuevo por descubrir: desde exposiciones de arte local hasta bazares, proyecciones de películas, música en vivo y actividades que resaltan la cultura de la región.
+
+Creemos en ofrecer un ambiente cálido y amigable, ideal para compartir conversaciones, celebrar momentos importantes o simplemente relajarte mientras disfrutas de un excelente café.
+
+
+          </p> 
+          <p>#PETFRIENDLY
+          En El Rincón del Grano, sabemos lo importante que son tus mascotas, y por eso, siempre son bienvenidas en nuestro café. Somos un lugar donde los amantes de los animales pueden venir a disfrutar de un buen café mientras pasean o conviven con sus compañeros peludos.
+Siempre estamos evolucionando, buscando nuevas formas de mejorar la experiencia de nuestros clientes y mantenernos como el café favorito de la comunidad. ¡Te esperamos con los brazos abiertos para que vivas una experiencia única!
+</p>
         </div>
         <div className="md:w-1/2 ml-80 animate__animated animate__fadeIn animate__delay-3s">
           <Image
             src="/restaurante.jpg"
             alt="Nuestro Café"
-            width={600}
-            height={400}
+            width={1000}
+            height={1000}
             objectFit="cover"
             className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
           />
