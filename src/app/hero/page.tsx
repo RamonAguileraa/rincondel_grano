@@ -15,7 +15,7 @@ export default function Hero() {
 
         {/* Contenedor de texto alineado a la izquierda */}
         <div className="text-left md:w-1/2">
-          <h2 className="text-5xl font-bold mb-4 -mt-64 leading-tight animate__animated animate__fadeIn animate__delay-1s">
+          <h2 className="text-5xl font-bold mb-4  leading-tight animate__animated animate__fadeIn animate__delay-1s">
             Bienvenido <span className='text-[#FCFDAF]'>a</span><br />
             <span className='text-[#FCFDAF]'>El</span> <span className='text-[#FCFDAF]'>Rincon</span> <span>del</span> <span className='italic font-serif text-[#758E4F]'>grano</span>
           </h2>
@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
 
         {/* Imagen más grande y alineada a la derecha */}
-        <div className="md:-mt-72 md:w-5/12 animate__animated animate__fadeIn animate__delay-3s">
+        <div className=" md:w-5/12 animate__animated animate__fadeIn animate__delay-3s">
           <Image
             src="/texto.png"
             alt="Texto de bienvenida"
